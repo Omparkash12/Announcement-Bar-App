@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto';
+}
+
+
+/* Background Tab Styling */
+.color-input-os input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    display: flex;
+}
+
+.input-color-code-os span {
+    font-size: 16px;
+    background-color: lightslategray;
+    color: #000;
+    border-radius: 3px;
+    padding: 8px 12px;
+    min-width: 90px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-color-code-os {
+    width: 20%;
+}
+.color-input-os {
+    width: 75%;
+}
+.background-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+
+/* FontSize Tab Styling */
+.font-size-data select {
+    width: 100%;
+    margin-bottom: 16px;
+    border: none;
+    padding: 12px 8px;
+    background: #ddd;
+    border-radius: 4px;
+    color: #000;
+}
+.form-submit-os {
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 8px 16px;
+    background: #777;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:576px) {
+    .background-data {
+        gap: 12px;
+        flex-direction: column;
+    }
+    .color-input-os {
+        width: 100%;
+    }
+    .input-color-code-os {
+        width: unset;
+    }  
+}

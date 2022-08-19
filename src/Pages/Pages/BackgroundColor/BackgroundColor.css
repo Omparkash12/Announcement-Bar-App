@@ -1,0 +1,34 @@
+/* .color-input-os input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    display: flex;
+}
+
+.input-color-code-os span {
+    font-size: 16px;
+    background-color: lightslategray;
+    color: #000;
+    border-radius: 3px;
+    padding: 8px 12px;
+    min-width: 90px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-color-code-os {
+    width: 20%;
+}
+.color-input-os {
+    width: 80%;
+}
+.background-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+} */
