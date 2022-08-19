@@ -4,7 +4,6 @@ import './Pages.css';
 import { Routes, Route } from "react-router-dom";
 import FontSize from './FontSize/FontSize';
 import BackgroundColor from './BackgroundColor/BackgroundColor';
-// import TextColor from './TextColor/TextColor';
 import BorderRadius from './BorderRadius/BorderRadius';
 
 
